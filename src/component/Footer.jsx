@@ -3,7 +3,7 @@ import logo from "../assets/logo.png";
 const Footer = () => {
 	return (
 		<footer className="bg-gray-800 text-white py-2">
-			<div className="max-w-screen-xl mx-auto px-6 flex flex-col sm:flex-row justify-between items-center">
+			<div className="max-w-screen-xl mx-auto px-6 flex flex-row sm:flex-row justify-between items-center">
 				<p className="flex justify-center items-center gap-2 text-sm text-white font-medium">
 					&copy; {new Date().getFullYear()} DojiDev
 					<img

@@ -78,7 +78,7 @@ const Main = () => {
 		<main className="flex flex-col flex-grow justify-center items-center  sm:p-8 md:p-10 ">
 			{/* Meme Form */}
 			<div className="flex flex-col flex-grow justify-center items-center m-2">
-				<div className="form bg-gray-800 rounded-lg p-6 sm:m-10 mt-6 shadow-lg w-full max-w-lg">
+				<div className="form bg-gray-800 rounded-lg p-4 mt-6 shadow-lg w-full max-w-lg">
 					{/* Top Text Input + Color Picker */}
 					<div className="relative w-full mb-4">
 						<label className="block text-gray-300 font-medium mb-2">
@@ -168,7 +168,7 @@ const Main = () => {
 				</div>
 
 				{/* Meme Display */}
-				<div className="meme relative mt-6 mb-6 text-center bg-gray-800 p-4 rounded-lg shadow-lg max-w-lg w-full">
+				<div className="meme relative mt-2 mb-6 text-center bg-gray-800 p-4 rounded-lg shadow-lg max-w-lg w-full">
 					<img
 						src={meme.imageUrl}
 						alt="meme"

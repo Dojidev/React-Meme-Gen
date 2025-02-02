@@ -75,9 +75,9 @@ const Main = () => {
 	}
 
 	return (
-		<main className="bg-gray-900 min-h-screen flex flex-col items-center px-4">
+		<main className="bg-gray-900 flex flex-col items-center justify-center h-screen px-4">
 			{/* Meme Form */}
-			<div className="form bg-gray-800 rounded-lg p-6 mt-6 shadow-lg w-full max-w-lg">
+			<div className="form bg-gray-800 rounded-lg p-6 shadow-lg w-full sm:max-w-md md:max-w-lg mb-6">
 				{/* Top Text Input + Color Picker */}
 				<div className="relative w-full mb-4">
 					<label className="block text-gray-300 font-medium mb-2">
@@ -162,7 +162,7 @@ const Main = () => {
 			</div>
 
 			{/* Meme Display */}
-			<div className="meme relative mt-6 mb-6 text-center bg-gray-800 p-4 rounded-lg shadow-lg max-w-lg w-full">
+			<div className="meme relative text-center bg-gray-800 p-4 rounded-lg shadow-lg w-full sm:max-w-md md:max-w-lg">
 				<img
 					src={meme.imageUrl}
 					alt="meme"
